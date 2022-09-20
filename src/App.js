@@ -24,10 +24,8 @@ function App() {
   });
   return (
     <div className="App">
-      {colors.map((color, i) => (
-        <ColorBlock key={i} color={color} />
-      ))}
-      <ColorForm />
+      {colorMap}
+      <ColorForm addColor={addColor} />
     </div>
   );
 }

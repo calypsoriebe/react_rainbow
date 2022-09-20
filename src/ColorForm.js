@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import App from "./App";
 
 function ColorForm(props) {
   let [input, setInput] = useState("");
